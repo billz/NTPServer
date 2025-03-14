@@ -1,7 +1,7 @@
 <?php ob_start() ?>
     <?php if (!RASPI_MONITOR_ENABLED) : ?>
     <input type="submit" class="btn btn-outline btn-primary" name="SaveNTPsettings" value="<?php echo _("Save settings"); ?>" />
-        <?php if ($serviceStatus == 'down') : ?>
+        <?php if ($__template_data['serviceStatus'] == 'down') : ?>
         <input type="submit" class="btn btn-success" name="StartNTPservice" value="<?php echo _("Start NTP service"); ?>" />
         <?php else : ?>
         <input type="submit" class="btn btn-warning" name="StopNTPservice" value="<?php echo _("Stop NTP service"); ?>" />
@@ -54,5 +54,4 @@
 
 <!-- Custom Plugin JS -->
 <script src="/app/js/plugins/NTPServer.js"></script>
-
 

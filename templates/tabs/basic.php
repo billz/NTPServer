@@ -19,9 +19,9 @@
             <?php foreach ($__template_data['ntpServers'] as $server): ?>
               <div class="mb-3 input-group input-group-sm js-dhcp-upstream-server">
                 <input type="text" class="form-control" name="server[]" value="<?php echo $server ?>">
-                <div class="input-group-append">
-                  <button class="btn btn-outline-secondary js-remove-dhcp-upstream-server" type="button"><i class="fas fa-minus"></i></button>
-                </div>
+                <button class="btn btn-outline-secondary js-remove-dhcp-upstream-server" type="button">
+                  <i class="fas fa-minus"></i>
+                </button>
               </div>
             <?php endforeach ?>
           </div>
@@ -37,9 +37,9 @@
             </p>
             <div class="input-group">
               <input type="text" class="form-control" id="add-ntp-server-field" aria-describedby="new-ntp-server" placeholder="<?php printf(_("e.g. %s"), "127.127.1.0") ?>">
-              <div class="input-group-append">
-                <button type="button" class="btn btn-outline-secondary js-add-ntp-server"><i class="fas fa-plus"></i></button>
-              </div>
+              <button type="button" class="btn btn-outline-secondary js-add-ntp-server">
+                <i class="fas fa-plus"></i>
+              </button>
             </div>
           </div>
         </div>
@@ -49,9 +49,9 @@
     <template id="ntp-server">
       <div class="mb-3 input-group input-group-sm js-ntp-server">
         <input type="text" class="form-control" name="server[]" value="{{ server }}">
-        <div class="input-group-append">
-          <button class="btn btn-outline-secondary js-remove-ntp-server" type="button"><i class="fas fa-minus"></i></button>
-        </div>
+        <button class="btn btn-outline-secondary js-remove-ntp-server" type="button">
+          <i class="fas fa-minus"></i>
+        </button>
       </div>
     </template>
   </div><!-- /.row -->
