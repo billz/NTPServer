@@ -1,10 +1,10 @@
 {
   "name": "NTP Server",
-  "version": "v1.1.0",
+  "version": "v1.1.1",
   "description": "A Network Time Protocol (NTP) server for RaspAP",
   "author": "Bill Z",
   "author_uri": "https://github.com/billz",
-  "plugin_uri": "https://github.com/RaspAP/raspap-insiders",
+  "plugin_uri": "https://github.com/billz/NTPServer",
   "plugin_docs": "https://docs.raspap.com/ntp/",
   "license": "GPL-3.0",
   "namespace": "RaspAP\\Plugins\\NTPServer",
