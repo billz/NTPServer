@@ -10,7 +10,7 @@
   "namespace": "RaspAP\\Plugins\\NTPServer",
   "default_locale": "en_US",
   "dependencies": {
-    "ntp": "1.2.2"
+    "ntpsec": "1.2.3"
   },
   "icon": "far fa-clock",
   "install_path": "plugins-available",
